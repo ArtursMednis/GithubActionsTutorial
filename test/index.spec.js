@@ -27,6 +27,7 @@ describe("Pencil Durability Kata Tests", () => {
 
     it("Decreases pencil durability by 5 after writing 'hello' with a durability of 50", () => {
       const pencil = new Pencil(50);
+      
       const paper = '';
 
       pencil.writeOnPaper(paper, "hello")
