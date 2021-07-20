@@ -64,7 +64,7 @@ export default class Pencil {
 
   edit(paper, textToAdd) {
     if (paper.lastIndexOf("  ") < 0) {
-      return;
+      return; 
     }
 
     const charactersOnPaper = paper.split('');
